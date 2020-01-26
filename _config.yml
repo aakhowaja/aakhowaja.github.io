@@ -1,6 +1,6 @@
 locale			: "en-US"
 title			: "Alizer Khowaja"
 description		: "Portfolio"
-url				: "http://alizerkhowaja.com"
+url			: "http://alizerkhowaja.com"
 baseurl			: "http://alizerkhowaja.com/index"
 repository		: "aakhowaja/aakhowaja.github.io"
