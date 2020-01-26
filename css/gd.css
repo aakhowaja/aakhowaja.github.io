@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:700,300');
+
+@font-face {
+                          font-family: "HKGrotesk-Regular";
+                          src: url('../fonts/HKGrotesk-Regular.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "HKGrotesk-Medium";
+                          src: url('../fonts/HKGrotesk-Medium.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "HKGrotesk-Light";
+                          src: url('../fonts/HKGrotesk-Light.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "HKGrotesk-SemiBold";
+                          src: url('../fonts/HKGrotesk-SemiBold.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "HKGrotesk-Bold";
+                          src: url('../fonts/HKGrotesk-Bold.otf') format("opentype");
+                        }
+                        
+.bp1-gd {
+  width               : 100%;
+  min-width           : 1200px;
+  height              : 100vh;
+  min-height          : 2068px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-gd .bp1-shirts {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1407px;
+  height              : 552px;
+  width               : 514px;
+  position            : absolute;
+  margin              : 0;
+  left                : 343px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-tshirttext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1367px;
+  height              : 30px;
+  width               : 329px;
+  position            : absolute;
+  margin              : 0;
+  left                : 435px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-tshirttext .bp1-front {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(125, 125, 125, 1.0);
+  text-align          : left;
+  letter-spacing      : 2.4px;
+  line-height         : 29.0px;
+}
+.bp1-gd .bp1-tshirttext .bp1-rear {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 276px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(125, 125, 125, 1.0);
+  text-align          : left;
+  letter-spacing      : 2.4px;
+  line-height         : 29.0px;
+}
+.bp1-gd .bp1-statbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 370px;
+  height              : 740px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 510px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-statbox .bp1-rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 740px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-statbox .bp1-views {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 462px;
+  height              : 137px;
+  width               : 128px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-statbox .bp1-views .bp1-a580m {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 89px;
+  height              : auto;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(125, 125, 125, 1.0);
+  text-align          : center;
+  letter-spacing      : 4.0px;
+  line-height         : 48.0px;
+}
+.bp1-gd .bp1-statbox .bp1-views .bp1-views1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(125, 125, 125, 1.0);
+  text-align          : center;
+  line-height         : 39.0px;
+}
+.bp1-gd .bp1-statbox .bp1-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 309px;
+  height              : 82px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 88px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.bp1-gd .bp1-statbox .bp1-uses {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 79px;
+  height              : 137px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-statbox .bp1-uses .bp1-a85m {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 89px;
+  height              : auto;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(125, 125, 125, 1.0);
+  text-align          : center;
+  line-height         : 48.0px;
+}
+.bp1-gd .bp1-statbox .bp1-uses .bp1-uses1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(125, 125, 125, 1.0);
+  text-align          : center;
+  line-height         : 39.0px;
+}
+.bp1-gd .bp1-lax {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 819px;
+  height              : 294px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 759px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-mombasa {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 723px;
+  height              : 210px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 956px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-cruisin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 530px;
+  height              : 213px;
+  width               : 327px;
+  position            : absolute;
+  margin              : 0;
+  left                : 713px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-klyde {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 366px;
+  height              : 217px;
+  width               : 203px;
+  position            : absolute;
+  margin              : 0;
+  left                : 986px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-castle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 880px;
+  height              : 255px;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-piers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 739px;
+  height              : 138px;
+  width               : 303px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-denver {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 557px;
+  height              : 139px;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-queens {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 368px;
+  height              : 144px;
+  width               : 311px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-architecture {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 712px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(82, 82, 82, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-gd .bp1-architecture:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-gd .bp1-photography {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1002px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-gd .bp1-photography:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-gd .bp1-graphicdesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 851px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(223, 133, 61, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-gd .bp1-graphicdesign:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-gd .bp1-line12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 2px;
+  width               : 1041px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-line121 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 2px;
+  width               : 1041px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-snapchatgeofilters {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 272px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Bold", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(105, 105, 105, 1.0);
+  text-align          : left;
+  line-height         : 48.0px;
+}
+.bp1-gd .bp1-tshirtdesigns {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1270px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Bold", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(105, 105, 105, 1.0);
+  text-align          : left;
+  line-height         : 48.0px;
+}
+.bp1-gd .bp1-engineering {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 585px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(82, 82, 82, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-gd .bp1-engineering:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-gd .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 53px;
+  width               : 268px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-gd .bp1-group2:hover {
+  transform           : scale(1.1);
+}
+.bp1-gd .bp1-group2 .bp1-alizerkhowaja {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Bold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.bp1-gd .bp1-group2 .bp1-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 53px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-about {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 846px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-SemiBold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-gd .bp1-about:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-gd .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 928px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-SemiBold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(223, 133, 61, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-gd .bp1-portfolio:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-gd .bp1-resume {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1049px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-SemiBold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-gd .bp1-resume:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-gd .bp1-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2039px;
+  height              : 19px;
+  width               : 713px;
+  position            : absolute;
+  margin              : 0;
+  left                : 406px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-gd .bp1-group3 .bp1-copyright2512020ali {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-gd .bp1-group3 .bp1-in {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 16px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 695px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+}
+.bp1-gd .bp1-group3 .bp1-in:hover {
+  color               : rgba(223,133,61,1);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-valign-text-middle {
+  display             : flex;
+  flex-direction      : column;
+  justify-content     : center;
+}

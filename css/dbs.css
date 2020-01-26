@@ -1,0 +1,862 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:700,300');
+
+@font-face {
+                          font-family: "HKGrotesk-Regular";
+                          src: url('../fonts/HKGrotesk-Regular.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "HKGrotesk-Medium";
+                          src: url('../fonts/HKGrotesk-Medium.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "HKGrotesk-Light";
+                          src: url('../fonts/HKGrotesk-Light.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "HKGrotesk-SemiBold";
+                          src: url('../fonts/HKGrotesk-SemiBold.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "HKGrotesk-Bold";
+                          src: url('../fonts/HKGrotesk-Bold.otf') format("opentype");
+                        }
+                        
+.bp1-dbs {
+  width               : 100%;
+  min-width           : 1200px;
+  height              : 100vh;
+  min-height          : 4879px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-dbs .bp1-fbs0012 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4270px;
+  height              : 500px;
+  width               : 880px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-fbs0010 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3280px;
+  height              : 280px;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-fbs0009 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2306px;
+  height              : 409px;
+  width               : 380px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-fbs0008 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2990px;
+  height              : 270px;
+  width               : 430px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-fbs0011 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2735px;
+  height              : 235px;
+  width               : 880px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-thefinalproductwa {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2086px;
+  height              : auto;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(121, 121, 121, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.bp1-dbs .bp1-final {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2029px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-SemiBold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(121, 121, 121, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.bp1-dbs .bp1-ofthethreedesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1271px;
+  height              : auto;
+  width               : 308px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(121, 121, 121, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.bp1-dbs .bp1-preliminary {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1214px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-SemiBold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(121, 121, 121, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.bp1-dbs .bp1-mosaicpatternvector {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 794px;
+  height              : 320px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 700px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.bp1-dbs .bp1-sincethefallujahb {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 531px;
+  height              : auto;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(121, 121, 121, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.bp1-dbs .bp1-line12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 2px;
+  width               : 1041px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-engineering {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 585px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(82, 82, 82, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-dbs .bp1-engineering:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-dbs .bp1-architecture {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 712px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(223, 133, 61, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-dbs .bp1-photography {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1002px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-dbs .bp1-photography:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-dbs .bp1-graphicdesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 851px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-dbs .bp1-graphicdesign:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-dbs .bp1-refugeecamp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 139px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 585px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-dbs .bp1-refugeecamp:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-dbs .bp1-cliffhouse {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 139px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 726px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-dbs .bp1-cliffhouse:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-dbs .bp1-parkwallbuilding {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 139px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 848px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-dbs .bp1-parkwallbuilding:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-dbs .bp1-sculpcity {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 139px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1031px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-dbs .bp1-sculpcity:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-dbs .bp1-busstationcomplex {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 139px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 387px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(223, 133, 61, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-dbs .bp1-hebronhighschool {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 320px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 875px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-SemiBold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(105, 105, 105, 1.0);
+  text-align          : right;
+  line-height         : 27.0px;
+}
+.bp1-dbs .bp1-fallujahanbarprovi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 320px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-SemiBold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(105, 105, 105, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.bp1-dbs .bp1-downtownbusstation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 272px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Bold", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(105, 105, 105, 1.0);
+  text-align          : left;
+  line-height         : 48.0px;
+}
+.bp1-dbs .bp1-a102017 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 240px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Medium", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(105, 105, 105, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.bp1-dbs .bp1-busstation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 240px;
+  height              : 60px;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 960px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-inspiration {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-SemiBold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(121, 121, 121, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.bp1-dbs .bp1-locationinfo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 774px;
+  height              : 360px;
+  width               : 540px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-resources {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 474px;
+  height              : 280px;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 600px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-img7259 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1214px;
+  height              : 234px;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 774px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-img7260 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1214px;
+  height              : 234px;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 488px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-img7261 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1468px;
+  height              : 481px;
+  width               : 615px;
+  position            : absolute;
+  margin              : 0;
+  left                : 425px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-fallujahbusstationcadpdf {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2031px;
+  height              : 684px;
+  width               : 480px;
+  position            : absolute;
+  margin              : 0;
+  left                : 560px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-img7258 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1468px;
+  height              : 481px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-fbs0006 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2990px;
+  height              : 270px;
+  width               : 430px;
+  position            : absolute;
+  margin              : 0;
+  left                : 610px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-fbs0005 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3280px;
+  height              : 280px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 640px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-fbs0003 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3580px;
+  height              : 350px;
+  width               : 880px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-fbs0001 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3950px;
+  height              : 300px;
+  width               : 880px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 53px;
+  width               : 268px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-dbs .bp1-group2:hover {
+  transform           : scale(1.1);
+}
+.bp1-dbs .bp1-group2 .bp1-alizerkhowaja {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Bold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.bp1-dbs .bp1-group2 .bp1-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 53px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-about {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 846px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-SemiBold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-dbs .bp1-about:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-dbs .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 928px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-SemiBold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(223, 133, 61, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-dbs .bp1-resume {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1049px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+  font-family         : "HKGrotesk-SemiBold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-dbs .bp1-resume:hover {
+  color               : rgba(223,133,61,1);
+}
+.bp1-dbs .bp1-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4850px;
+  height              : 19px;
+  width               : 713px;
+  position            : absolute;
+  margin              : 0;
+  left                : 406px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-dbs .bp1-group3 .bp1-copyright2512020ali {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HKGrotesk-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 75, 75, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-dbs .bp1-group3 .bp1-in {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 16px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 695px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.1s ease-in-out;
+}
+.bp1-dbs .bp1-group3 .bp1-in:hover {
+  color               : rgba(223,133,61,1);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-valign-text-middle {
+  display             : flex;
+  flex-direction      : column;
+  justify-content     : center;
+}
