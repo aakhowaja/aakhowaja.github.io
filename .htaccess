@@ -1,6 +1,7 @@
 ErrorDocument 404 /404.html
 
 RewriteEngine on
+Options -MultiViews
 
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
