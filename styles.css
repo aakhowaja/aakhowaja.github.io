@@ -1,0 +1,596 @@
+	/* Styles */
+
+	/* Colors */
+:root {
+	--white: #ffffff;
+	--black: #000000;
+}
+
+	/* Font */
+@font-face {
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 300;
+src: url('./fonts/HKGrotesk-Light.woff');
+}
+
+@font-face {
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 400;
+src: url('./fonts/HKGrotesk-Regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 500;
+src: url('./fonts/HKGrotesk-Medium.woff') format('woff');
+}
+
+@font-face {
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 600;
+src: url('./fonts/HKGrotesk-SemiBold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'HK Grotesk';
+font-style: normal;
+font-weight: 700;
+src: url('./fonts/HKGrotesk-Bold.woff') format('woff');
+}
+
+	/* Site References */
+h1 {
+	font-family: HK Grotesk;
+	font-weight: 700;
+	font-size: 35px;
+	color: #323232;
+}
+
+h2 {
+	font-family: HK Grotesk;
+	font-weight: 600;
+	font-size: 26px;
+	color: #323232;
+}
+
+h3 {
+	font-family: HK Grotesk;
+	font-weight: 600;
+	font-size: 23px;
+	color: #323232;
+}
+
+h4 {
+	font-family: HK Grotesk;
+	font-weight: 500;
+	font-size: 19px;
+	color: #323232;
+}
+
+h5 {
+	font-family: HK Grotesk;
+	font-weight: 400;
+	font-size: 20px;
+	color: #323232;
+}
+
+h6 {
+	font-family: HK Grotesk;
+	font-weight: 300;
+	font-size: 18px;
+	color: #323232;
+}
+
+p {
+	font-family: HK Grotesk;
+	font-weight: 500;
+	font-size: 20px;
+	color: #323232;
+}
+
+a {
+	text-decoration: inherit;
+	color: inherit;
+	transition: inherit;
+}
+
+h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, li::selection, a::selection, body::selection, header::selection, nav::selection, span::selection, div::selection, br::selection, strong::selection, img::selection, html::selection {
+		background: #C2D1E3;
+}
+
+html {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+header {
+	padding-bottom: 0.75em;
+}
+
+hr {
+	margin-top: -1vh;
+	border-top: 0.75px dotted #DF853D;
+	border-bottom: 0.75px dotted #DF853D;
+}
+
+nav {
+	margin-left: auto;
+}
+
+main {
+
+}
+
+footer {
+	background: #DF853D;
+} 
+
+img {
+	-webkit-user-drag: none;
+}
+
+video {
+	-webkit-user-drag: none;
+}
+
+
+.navheight {
+	display: inline-flex;
+	flex-direction: row;
+	
+	justify-content: space-between;
+}
+
+	/* Formatting */
+.semibold {
+	font-weight: 600;
+}
+
+.maintitle {
+	font-size: 40px;
+}
+
+.back {
+	background: green;
+}
+
+.selected {
+	color: #DF853D;
+}
+
+.themelink {
+	color: #DF853D;
+	display: inline-block;
+}
+
+.themelink::after {
+	content: '';
+	width: 0px;
+	height: 2.5px;
+	display: block;
+	background: #DF853D;
+	transition: 0.2s linear;
+}
+
+.themelink:hover::after {
+	width: 100%;
+}
+
+.sub {
+	color: #5a5a5a;
+}
+
+.grow { 
+	transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+	transform: scale(1.075);
+}
+
+.borderselection {
+	border: 2.5px;
+	border-style: solid;
+	border-color: #DF853D;
+	border-radius: 15px;
+	padding: 10px;
+	color: #DF853D;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.navgrid {
+	display: grid;
+	grid-template-columns: 1fr 13fr 1fr;
+	align-items: stretch;
+	height: auto;
+}
+
+.col1nav {
+}
+
+.col2nav {
+	line-height: 1.5em;
+	margin-top: 1em;
+}
+
+.col3nav {
+}
+
+.secondnav {
+	text-align: end;
+	margin-top: -3.5vh;
+}
+
+.secondnav > h4:not(:last-child) {
+	margin-right: 3.5%;
+}
+
+.indexgrid {
+	display: grid;
+	grid-template-columns: 2fr 11fr 2fr;
+	height: auto;
+	align-items: flex-start;
+	text-align: center;
+	margin-top: 0.5em;
+	flex: 1;
+	flex-direction: column;
+}
+
+.col1index {
+}
+
+.col2index {
+}
+
+.col3index {
+}
+
+
+.aboutgrid {
+	display: grid;
+	grid-template-columns: 2fr 11fr 2fr;
+	text-align: left;
+	margin-top: 0.5em;
+	align-items: flex-start;
+	flex: 1;
+	flex-direction: column;
+}
+
+.col1about {
+}
+
+.col2about {
+	margin-top: 3em;
+	margin-left: 0.5em;
+}
+
+.col3about {
+	
+}
+
+.contentgrid {
+	display: grid;
+	grid-template-columns: 2fr 11fr 2fr;
+	height: auto;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.col1content {
+}
+
+.col2content {
+	margin-top: 1em;
+	margin-left: 0.5em;
+}
+
+.col3content {
+}
+
+	/* Sizing and Effects */
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.inline {
+	display: inline;
+}
+
+
+.name {
+	padding-top: 2px;
+	margin-left: 0.5em;
+	flex-direction: row;
+	width: auto;
+	vertical-align: middle;
+}
+
+.name:hover {
+	color: #DF853D;
+	transition: all 0.1s ease-in-out;
+}
+
+.navselect {
+	display: inline-block;
+}
+
+.navselect:hover {
+	color: #DF853D;
+	transition: .1s ease-in-out;
+}
+
+.navmargin {
+	margin-left: 2em;
+}
+
+.indexpad {
+	max-width: 700px;
+	position: relative;
+	margin: auto;
+	margin-top: 25vmin;
+	justify-content: space-between;
+}
+
+.logo {
+	height: auto;
+	width: 5em;
+	flex-direction: row;
+}
+
+.mainlogo {
+	height: 100%;
+	vertical-align: middle;
+	max-width: 100%;
+	flex-direction: row;
+}
+
+.icon {
+	height: 1.5em;
+	margin-top: 0.75em;
+	margin-bottom: 0.25em;
+	transition: .15s ease-in-out;
+}
+
+.icon:hover {
+	transform: scale(1.1);
+}
+
+.profile {
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	text-align:center;
+	height: auto;
+	margin-top: -1em;
+}
+
+.profilepic {
+	height: 16vmax;
+}
+
+.margin2 {
+	margin-top: 2em;
+}
+
+.margintop {
+	margin-top: 5vh;
+}
+
+.margin04 {
+	margin-top: 4em;
+}
+
+.margin4 {
+	margin-top: 4em;
+}
+
+.marginbot {
+	margin-bottom: 5em;
+}
+
+.marginbot2 {
+	margin-bottom: 2em;
+}
+
+.abouttext {
+	position: relative;
+	margin: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.foot {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.errorlogo {
+	margin-top: 8vh;
+	margin-bottom: 5vh;
+}
+
+.errormain {
+	font-size: 75px;
+	font-weight: 700;
+}
+
+.errormessage {
+	font-size: 40px;
+	color: #5a5a5a;
+}
+
+.errorborder {
+	border: 4px;
+	border-style: solid;
+	border-radius: 15px;
+	padding: 10px;
+	font-weight: 700;
+	font-size: 25px;
+	color: #735F5F;
+	border-color: #735F5F;
+	width: 30vw;
+	font-size: 30px;
+}
+
+	/* Image Collages */
+
+/* FlexBox */
+.organize {
+	display: flex;
+	margin-top: 3%;
+}
+
+/* Aspect Ratios */
+.wcd1 {flex: 1.512727272727273;}
+.wcd2 {flex: 0.741818181818182;}
+.wcd3 {flex: 0.872727272727273;}
+.wcd4 {flex: 1.109090909090909;}
+.wcd5 {flex: 1.789090909090909;}
+.wcd6 {flex: 1.69811320754717;}
+.wcd7 {flex: 2.405660377358491;}
+.wcd8 {flex: 1.246153846153846;}
+.wcd9 {flex: 1.430769230769231;}
+.wcd10 {flex: 1.768253968253968;}
+.wcd11 {flex: 0.993650793650794;}
+.wcd12 {flex: 1.949152542372881;}
+.wcd13 {flex: 1;}
+.wcd14 {flex: 1.081081081081081;}
+.wcd15 {flex: 1.633333333333333;}
+
+
+.aich1 {flex: 0.909090909090909;}
+.aich2 {flex: 1.446969696969697;}
+.aich3 {flex: 0.646153846153846;}
+.aich4 {flex: 1.614678899082569;}
+.aich5 {flex: 1.517241379310345;}
+.aich6 {flex: 1.169230769230769;}
+.aich7 {flex: 1.507987220447284;}
+.aich8 {flex: 1.792260692464358;}
+.aich9 {flex: 1.514705882352941;}
+.aich10 {flex: 1.476923076923077;}
+.aich11 {flex: 2.194513715710723;}
+.aich12 {flex: 0.948493683187561;}
+.aich13 {flex: 0.690166975881262;}
+.aich14 {flex: 5.127465857359636;}
+.aich15 {flex: 4.704819277108434;}
+.aich16 {flex: 5.197037037037037;}
+.aich17 {flex: 5.035765379113019;}
+
+.bsc1 {flex: 1.5;}
+.bsc2 {flex: 0.577083333333333;}
+.bsc3 {flex: 1.310344827586207;}
+.bsc4 {flex: 1.108974358974359;}
+.bsc5 {flex: 1.259355509355509;}
+.bsc6 {flex: 1.066239316239316;}
+.bsc7 {flex: 0.516061084781464;}
+.bsc8 {flex: 0.793398533007335;}
+.bsc9 {flex: 0.701754385964912;}
+.bsc10 {flex: 3.74468085106383;}
+.bsc11 {flex: 1.592592592592593;}
+.bsc12 {flex: 1.592592592592593;}
+.bsc13 {flex: 2.514285714285714;}
+.bsc14 {flex: 1.988700564971751;}
+.bsc15 {flex: 1.642857142857143;}
+.bsc16 {flex: 1.428571428571429;}
+.bsc17 {flex: 2.933333333333333;}
+
+.prs1 {flex: 1.454545454545455;}
+.prs2 {flex: 2.111468381564845;}
+.prs3 {flex: 1.38953488372093;}
+.prs4 {flex: 1.401574803149606;}
+.prs5 {flex: 1.238095238095238;}
+.prs6 {flex: 1.492063492063492;}
+.prs7 {flex: 2.588235294117647;}
+.prs8 {flex: 0.774193548387097;}
+.prs9 {flex: 1.25;}
+.prs10 {flex: 1.290322580645161;}
+.prs11 {flex: 1.5;}
+.prs12 {flex: 1.290322580645161;}
+.prs13 {flex: 1.38125;}
+.prs14 {flex: 1.3125;}
+.prs15 {flex: 1.618257261410788;}
+.prs16 {flex: 1.6;}
+.prs17 {flex: 1.283870967741935;}
+.prs18 {flex: 1.496774193548387;}
+.prs19 {flex: 2.17283950617284;}
+
+.scp1 {flex: 3.384615384615385;}
+.scp2 {flex: 2.410958904109589;}
+.scp3 {flex: 1.5;}
+.scp4 {flex: 1.6;}
+.scp5 {flex: 1.376119402985075;}
+.scp6 {flex: 1.194029850746269;}
+.scp7 {flex: 2.514285714285714;}
+.scp8 {flex: 1.192307692307692;}
+.scp9 {flex: 1.5;}
+.scp10 {flex: 2.498225691980128;}
+.scp11 {flex: 2.095238095238095;}
+.scp12 {flex: 1.543408360128617;}
+.scp13 {flex: 1.375796178343949;}
+.scp14 {flex: 2.626865671641791;}
+
+.p1 {flex: 1.818181818181818;}
+.p2 {flex: 0.610795454545455;}
+.p3 {flex: 0.687640449438202;}
+.p4 {flex: 1.233707865168539;}
+.p5 {flex: 0.679487179487179;}
+.p6 {flex: 0.771794871794872;}
+.p7 {flex: 0.676923076923077;}
+.p8 {flex: 0.716129032258065;}
+.p9 {flex: 2.041935483870968;}
+.p10 {flex: 1.521739130434783;}
+.p11 {flex: 1.337792642140468;}
+.p12 {flex: 1;}
+.p13 {flex: 1.514705882352941;}
+.p14 {flex: 1.333333333333333;}
+.p15 {flex: 0.562764456981664;}
+.p16 {flex: 1.333333333333333;}
+.p17 {flex: 1.198051948051948;}
+.p18 {flex: 1.577922077922078;}
+.p19 {flex: 1.331269349845201;}
+.p20 {flex: 1.315789473684211;}
+.p21 {flex: 0.678391959798995;}
+.p22 {flex: 0.615577889447236;}
+.p23 {flex: 0.795454545454545;}
+.p24 {flex: 1.322981366459627;}
+.p25 {flex: 1.335403726708075;}
+.p26 {flex: 0.749122807017544;}
+.p27 {flex: 0.750877192982456;}
+.p28 {flex: 1.318181818181818;}
+.p29 {flex: 1.272727272727273;}
+.p30 {flex: 1.281553398058252;}
+.p31 {flex: 1.485436893203883;}
+.p32 {flex: 2.758620689655172;}
+.p33 {flex: 1.288343558282209;}
+.p34 {flex: 1.334355828220859;}
+.p35 {flex: 2.595870206489676;}
+.p36 {flex: 0.562758620689655;}
+.p37 {flex: 1.231404958677686;}
+.p38 {flex: 1.330357142857143;}
+.p39 {flex: 1.085365853658537;}
+.p40 {flex: 1;}
+
+/* Space Between */
+.organize > div:not(:last-child) {
+	margin-right: 3%;
+}
