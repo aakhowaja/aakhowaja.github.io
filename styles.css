@@ -452,8 +452,35 @@ video {
 	font-size: 30px;
 }
 
-	/* Image Collages */
+/* Fade In on Load */
+.fadein {
+	opacity: 0;
+	animation-name: FadeIn;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.9s;
+	animation-fill-mode:forwards;
+}
+.fadein.one {
+	animation-delay: 0.8s;
+}
+.fadein.two {
+	animation-delay: 2.5s;
+}
 
+@keyframes FadeIn {
+	0% {
+		opacity: 0;
+		/*transform: translateY(5%)*/
+	}
+	100% {
+		opacity: 1;
+		/*transform: translateY(0%)*/
+	}
+}
+
+
+	/* Image Collages */
 /* FlexBox */
 .organize {
 	display: flex;
