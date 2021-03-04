@@ -462,10 +462,10 @@ video {
 	animation-fill-mode:forwards;
 }
 .fadein.one {
-	animation-delay: 0.8s;
+	animation-delay: 0.5s;
 }
 .fadein.two {
-	animation-delay: 2.5s;
+	animation-delay: 2.0s;
 }
 
 @keyframes FadeIn {
