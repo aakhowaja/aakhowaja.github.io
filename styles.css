@@ -316,11 +316,11 @@ video {
 	flex-direction: row;
 	width: auto;
 	vertical-align: middle;
+	transition: color 0.15s ease-in-out;
 }
 
 .name:hover {
 	color: #DF853D;
-	transition: all 0.1s ease-in-out;
 }
 
 .navtext {
@@ -329,11 +329,11 @@ video {
 
 .navselect {
 	display: inline-block;
+	transition: color .1s ease-in-out;
 }
 
 .navselect:hover {
 	color: #DF853D;
-	transition: .1s ease-in-out;
 }
 
 .selected {
