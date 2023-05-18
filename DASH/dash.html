@@ -52,6 +52,9 @@
         h2 {
         text-align: center;
         }
+        h4 {
+        text-align: center;
+        }
       html * {
         font-family: Trebuchet MS, sans-serif;
       }
@@ -59,6 +62,7 @@
   </head>
   <body>
     <h1>Camp Mosaic Application Dashboard - 2023</h1>
+    <h4>Updated 5/18/2023 @ 1AM CST</h4>
     <!-- First block of 4 charts -->
     <div class="parent">
 		<div class="chart">
@@ -117,10 +121,10 @@
                         'West',
                         'Northeast'
                     ],
-                    ['Staff',78,46,74,20,24,10,34],
-                    ['Guide',184,181,154,37,46,51,64],
-                    ['Counselor',200,132,181,33,58,55,57],
-                    ['Incomplete',30,35,41,6,3,7,29]
+                    ['Staff',78, 46, 74, 20, 24, 10, 34],
+                    ['Guide',184, 182, 154, 37, 46, 51, 64],
+                    ['Counselor',200, 132, 181, 33, 58, 55, 57],
+                    ['Incomplete',30, 35, 41, 6, 3, 7, 33]
                 ],
                 type: "bar", // for ESM specify as: bar(),
                 labels: null,
@@ -176,8 +180,8 @@
                         'West',
                         'Northeast'
                     ],
-                    ['Complete',257,490,402,73,83,121,98],
-                    ['Incomplete',51,100,38,17,8,40,15]
+                    ['Complete',331, 503, 414, 82, 92, 119, 112],
+                    ['Incomplete',50, 94, 44, 17, 8, 40, 21]
                 ],
                 type: "bar", // for ESM specify as: bar(),
                 labels: null,
@@ -220,10 +224,11 @@
             bindto: "#chart2"
         });
 
+        // PPANT
         var tableData = [
-          {Gender:"Male", Count:699},
-          {Gender:"Female", Count:790},
-          {Gender:"Prefer Not to Say", Count:38},
+          {Gender:"Male", Count:761},
+          {Gender:"Female", Count:855},
+          {Gender:"Prefer Not to Say", Count:40},
         ];
     
         // Define your table columns as an array of objects
@@ -253,10 +258,10 @@
             type: "pie",
         };
 
-        // Define your table data as an array of objects
+        // CGS
         var tableData = [
           {Gender:"Male", Count:586},
-          {Gender:"Female", Count:750},
+          {Gender:"Female", Count:751},
           {Gender:"Prefer Not to Say", Count:3},
         ];
     
